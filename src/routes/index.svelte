@@ -4,7 +4,7 @@ let tanggal = '';
  
  function runDay() {
   const time = new Date()
-  tanggal = time.getDaynames() +','+ time.getDate() +'-'+ time.getMonth() +'-'+ time.getFullYear()
+  tanggal = time.getUTCDay() +','+ time.getDate() +'-'+ time.getMonth() +'-'+ time.getFullYear()
   setTimeout ( runDay , 24 * 60 * 60 * 1000 )
 }
  
