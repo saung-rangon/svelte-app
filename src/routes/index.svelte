@@ -20,7 +20,7 @@ function runTimer() {
  
 runTimer()
 </script>
+
+
 <h1> {tanggal} </h1>
 <h1>Jam: {jam}</h1>
-< p > Kunjungi < a  href = "https://kit.svelte.dev" > kit.svelte.dev </ a > untuk membaca dokumentasi </ p >
-saya
