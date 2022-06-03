@@ -3,7 +3,7 @@
 
 let jam = '';
  
-const runTimer() {
+function runTimer() {
   const date = new Date()
   jam = date.getHour() +':'+ date.getMinutes() +':'+ date.getSeconds()
   setTimeout(runTimer, 1000)
