@@ -3,8 +3,8 @@
 let tanggal = '';
  
  function runDay() {
-  const time = new Date()
-  tanggal = time.getUTCDay() +','+ time.getDate() +'-'+ time.getMonth() +'-'+ time.getFullYear()
+  const today = new Date()
+  tanggal = today.getUTCDay() +','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
   setTimeout ( runDay , 24 * 60 * 60 * 1000 )
 }
  
