@@ -3,11 +3,11 @@
 let tanggal = '';
  
  function runDay() 
- 
+ {
  const options = { weekday: 'long'};
 
 console.log(new Intl.DateTimeFormat('en-US', options).format(Xmas95));
- {
+
   const today = new Date()
   tanggal = today.getDay() +','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
   setTimeout ( runDay , 24 * 60 * 60 * 1000 )
