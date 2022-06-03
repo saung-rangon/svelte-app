@@ -5,7 +5,7 @@ let jam = '';
  
 function runTimer() {
   const date = new Date()
-  jam = date.getHour() +':'+ date.getMinutes() +':'+ date.getSeconds()
+  jam = date.getHours() +':'+ date.getMinutes() +':'+ date.getSeconds()
   setTimeout(runTimer, 1000)
 } 
  
