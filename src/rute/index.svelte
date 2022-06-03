@@ -5,7 +5,7 @@ let tanggal = '';
  function runDay() {
   const time = new Date()
   tanggal = time.getDay() +','+ time.getDate() +'-'+ time.getMonth() +'-'+ time.getYear()
-  serTimeout(runDay, 24*60*60*1000)
+  setTimeout ( runDay , 24 * 60 * 60 * 1000 )
 }
  
  runDay()
@@ -22,4 +22,5 @@ runTimer()
 </script>
 <h1> {tanggal} </h1>
 <h1>Jam: {jam}</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+< p > Kunjungi < a  href = "https://kit.svelte.dev" > kit.svelte.dev </ a > untuk membaca dokumentasi </ p >
+saya
