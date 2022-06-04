@@ -2,16 +2,20 @@
  // gjjj
 let tanggal = '';
  
- function runDay() 
- {
- const options = { weekday: 'long'};
+ function runDay() {
+const today = new Date()
+const options = { weekday: 'long'};
+console.log(new Intl.DateTimeFormat('en-US', options).format(today));
 
-console.log(new Intl.DateTimeFormat('en-US', options).format(Xmas95));
+  tanggal = +','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
 
-  const today = new Date()
-  tanggal = today.getDay() +','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
   setTimeout ( runDay , 24 * 60 * 60 * 1000 )
+
 }
+
+
+
+
  
  runDay()
  
