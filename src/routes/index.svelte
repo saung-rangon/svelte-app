@@ -15,8 +15,6 @@ console.log(new Intl.DateTimeFormat('en-US', options).format(today));
 
 
 
-
- 
  runDay()
  
 let jam = '';
@@ -33,3 +31,9 @@ runTimer()
 
 <h1> {tanggal} </h1>
 <h1>Jam: {jam}</h1>
+<p>
+ <table>
+  <tr>
+   <td>Home</td><td>Acount</td>
+  </tr>
+</table>
