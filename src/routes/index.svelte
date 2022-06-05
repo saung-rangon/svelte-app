@@ -5,7 +5,7 @@ let tanggal = '';
  function runDay() {
 const today = new Date()
 const options = { today: 'long'};
-console.log(new Intl.DateTimeFormat('en-US', options).format (Xmas22));
+console.log(new Intl.DateTimeFormat('en-US', options).format (today));
 
   tanggal = ','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
 
