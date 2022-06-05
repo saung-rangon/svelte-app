@@ -29,11 +29,12 @@ runTimer()
 </script>
 
 
-<h1> {tanggal} </h1>
-<h1>Jam: {jam}</h1>
+<h4> {tanggal} </h4>
+<h4>Jam: {jam}</h4>
 <p>
  <table>
   <tr>
-   <td>Home</td><td>Acount</td>
+   <td>Beranda</td>
+   <td>Akun</td>
   </tr>
 </table>
