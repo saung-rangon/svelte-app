@@ -6,7 +6,7 @@ let tanggal = '';
 const today = new Date()
 const options = { today: 'long'};
 
-  tanggal = console.log(new Intl.DateTimeFormat('en-US', options).format (today));
+  tanggal = console.log(new Intl.DateTimeFormat('en-US', options).format (today))
 +','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
 
   setTimeout ( runDay , 24 * 60 * 60 * 1000 )
