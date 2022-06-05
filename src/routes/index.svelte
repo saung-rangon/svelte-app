@@ -8,7 +8,7 @@ const Today = new Date();
 const weekday = Today.getDay();
 
  const options = { weekday: 'long'};
-console.log(new Intl.DateTimeFormat('en-US', options).format(Xmas95));
+console.log(new Intl.DateTimeFormat('en-US', options).format(Today));
 
   tanggal =
 +','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
