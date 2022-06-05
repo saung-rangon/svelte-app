@@ -4,10 +4,10 @@ let tanggal = '';
  
  function runDay() {
 const today = new Date()
-const options = { weekday: 'long'};
-console.log(new Intl.DateTimeFormat('en-US', options).format (Xmas95));
+const options = { today: 'long'};
+console.log(new Intl.DateTimeFormat('en-US', options).format (Xmas22));
 
-  tanggal = +','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
+  tanggal = ','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
 
   setTimeout ( runDay , 24 * 60 * 60 * 1000 )
 
