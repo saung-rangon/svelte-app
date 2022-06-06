@@ -9,7 +9,7 @@ const weekday = Xmas95.getDay();
 
  const options = { weekday: 'long'};
 console.log(new Intl.DateTimeFormat('en-US', options).format(Xmas95));
-
+const today = new Date();
   tanggal =
 +','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
 
