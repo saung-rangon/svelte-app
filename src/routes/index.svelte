@@ -2,24 +2,22 @@
  // gjjj
 let tanggal = '';
  
- function runDay() {
+function runDay() {
 
-const Xmas95 = new Date();
-const weekday = Xmas95.getDay();
+  const Xmas95 = new Date();
+  const weekday = Xmas95.getDay();
 
- const options = { weekday: 'long'};
-console.log(new Intl.DateTimeFormat('en-US', options).format(Xmas95));
-const today = new Date();
-  tanggal = weekday.getdate
-+','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
+  const options = { weekday: 'long'};
+  console.log(new Intl.DateTimeFormat('en-US', options).format(Xmas95));
+  const today = new Date();
+  tanggal = weekday.getdate +','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
 
   setTimeout ( runDay , 24 * 60 * 60 * 1000 )
 
 }
 
+runDay()
 
-
- runDay()
  
 let jam = '';
  
