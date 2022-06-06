@@ -4,11 +4,11 @@ let tanggal = '';
  
  function runDay() {
 
-const Today = new Date();
-const weekday = Today.getDay();
+const Xmas95 = new Date();
+const weekday = Xmas95.getDay();
 
  const options = { weekday: 'long'};
-console.log(new Intl.DateTimeFormat('en-US', options).format(Today));
+console.log(new Intl.DateTimeFormat('en-US', options).format(Xmas95));
 
   tanggal =
 +','+ today.getDate() +'-'+ today.getMonth() +'-'+ today.getFullYear()
